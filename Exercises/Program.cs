@@ -9,6 +9,10 @@ internal class Program {
     // Solution54.Solution54_1();
     // Solution54.Solution54_2();
     // Solution54.Solution54_3();
-    Solution54.Solution54_4();
+    // Solution54.Solution54_4();
+    // Solution66.Solution66_1();
+    // Solution66.Solution66_2();
+    // Solution66.Solution66_3();
+    Solution66.Solution66_4();
   }
 }
