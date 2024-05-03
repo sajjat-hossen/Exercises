@@ -39,5 +39,25 @@ namespace Exercises.Solutions {
       }
       Console.WriteLine("Factorial: " + factorial);
     }
+
+    public static void Solution511_4() {
+      var random = new Random();
+      var randomValue = random.Next(0, 11);
+      Console.WriteLine("Selected Random Number: " + randomValue);
+      var found = false;
+      for (var i = 0; i < 4; ++i) {
+        var userInput = Console.ReadLine();
+        var userValue = Convert.ToInt32(userInput);
+        if (userValue == randomValue) {
+          found = true;
+          break;
+        }
+      }
+      if (found == true) {
+        Console.WriteLine("Yout Won");
+      } else {
+        Console.WriteLine("You lost");
+      }
+    }
   }
 }
